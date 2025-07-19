@@ -1,4 +1,4 @@
-# Music Genre Predictor with ML
+# Shopping Habits Predictor with ML
 ## Project Overview
 This project presents a simple machine learning approach to predicting the most favorable music genre based on age and gender. Trained on a labeled dataset, the model is designed to make predictions for previously unseen demographic combinations. The project is built using the pandas and scikit-learn libraries. 
 
@@ -16,6 +16,7 @@ As the dataset was synthetically created by the author with a limited number of 
 
 ## Machine Learning
 ### Creating Model
+The dataset was splitted into input dataset -- first two columns with age and gender -- and output dataset - that contains prediction. As we don't have input for all ages we are going to ask model to predict shopping habits based on age and gender.  
 ### Measure Model Accuracy
 ### Persisting the Model
 ### Visualizing the Desicion Tree
