@@ -4,3 +4,10 @@ This project presents a simple machine learning approach to predicting the most 
 
 ### Data Sources
 The dataset used for model training was created by the author. It includes synthetic entries with age, gender, and corresponding music genre preferences.
+
+### Tools
+- Jupyter Notebook
+- Python 
+  - pandas - Data Analysis
+  - sklearn - Model training/testing, prediction and basic visualization
+ 
