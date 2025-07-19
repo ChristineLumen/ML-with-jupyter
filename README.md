@@ -22,3 +22,5 @@ The dataset was split into training and test sets using <code style="color : nam
 ### Persisting the Model
 The trained model was saved using the <code style="color : name_color">joblib</code> library for future use. This step allows us to make predictions without retraining the model.
 ### Visualizing the Desicion Tree
+The structure of the trained decision tree was visualized using VSC with Graphviz Interactive Preview extension <img width="541" height="148" alt="Screenshot 2025-07-19 at 3 14 31 PM" src="https://github.com/user-attachments/assets/4d92f215-372c-418a-b015-36b2aa4c025d" />
+This help to visualize steps in decision tree model.
