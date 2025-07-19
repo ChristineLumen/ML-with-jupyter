@@ -24,4 +24,4 @@ The trained model was saved using the <code style="color : name_color">joblib</c
 ### Visualizing the Desicion Tree
 The structure of the trained decision tree was visualized using VSC with Graphviz Interactive Preview extension <img width="541" height="148" alt="Screenshot 2025-07-19 at 3 14 31 PM" src="https://github.com/user-attachments/assets/4d92f215-372c-418a-b015-36b2aa4c025d" />
 
-This visualization helps illustrate the decision-making process of the model—showing how it splits the data based on age and gender to predict shopping habits.
+This visualization helps illustrate the decision-making process of the model. At each node, the tree asks a question based on the input features (in our case, age or gender). If the condition is true, the model follows one branch, if false, it follows the other. The process continues until the model reaches a leaf node, or, in other words, the final predicted outcome.
