@@ -11,3 +11,11 @@ The dataset used for model training was created by the author. It includes synth
   - pandas - Data Analysis
   - sklearn - Model training/testing, prediction and basic visualization
  
+### Data Cleaning
+As the dataset was synthetically created by the author with a limited number of rows and columns, no additional data cleaning was necessary.
+
+## Machine Learning
+### Creating Model
+### Measure Model Accuracy
+### Persisting the Model
+### Visualizing the Desicion Tree
