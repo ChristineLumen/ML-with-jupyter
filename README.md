@@ -20,5 +20,5 @@ A Decision Tree Classifier from scikit-learn was used to train the model on a la
 ### Measure Model Accuracy
 The dataset was split into training and test sets using <code style="color : name_color">train_test_split</code>. To evaluate the model’s performance, we used the <code style="color : name_color">accuracy_score</code> function from <code style="color : name_color">sklearn.metrics</code>. The accuracy score may vary slightly with each execution, as the data is randomly split by default.
 ### Persisting the Model
-The trained model was saved using the <code style="color : name_color">joblib</code> library for future use, allowing for fast loading and prediction without retraining.
+The trained model was saved using the <code style="color : name_color">joblib</code> library for future use. This step allows us to make predictions without retraining the model.
 ### Visualizing the Desicion Tree
