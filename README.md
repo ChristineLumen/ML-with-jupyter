@@ -19,6 +19,21 @@ As the dataset was synthetically created by the author with a limited number of 
 A Decision Tree Classifier from scikit-learn was used to train the model on a labeled dataset. The input features were age and gender, while the target (output) was shopping habits. Since the dataset does not include every possible age and gender combination, we use the trained model to predict shopping habits for new, unseen inputs.
 ### Measure Model Accuracy
 The dataset was split into training and test sets using <code style="color : name_color">train_test_split</code>. To evaluate the model’s performance, we used the <code style="color : name_color">accuracy_score</code> function from <code style="color : name_color">sklearn.metrics</code>. The accuracy score may vary slightly with each execution, as the data is randomly split by default.
+
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+shopping_data= pd.read_csv("shopping.csv")
+X=shopping_data.drop(columns =["Behavior Types"])
+y=shopping_data["Behavior Types"]
+X_train, X_test, y_train, y_test=train_test_split(X,y, test_size = 0.2)
+model = DecisionTreeClassifier()
+model.fit(X_train,y_train)
+predictions = model.predict(X_test)
+score = accuracy_score(y_test, predictions)
+
+
 ### Persisting the Model
 The trained model was saved using the <code style="color : name_color">joblib</code> library for future use. This step allows us to make predictions without retraining the model.
 ### Visualizing the Desicion Tree
