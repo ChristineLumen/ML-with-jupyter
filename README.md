@@ -7,7 +7,7 @@ The dataset used for model training was created by the author. It includes synth
 
 ### Tools
 - Jupyter Notebook
-- Python 
+- Python
   - pandas - Data Analysis
   - sklearn - Model training/testing, prediction and basic visualization
  
