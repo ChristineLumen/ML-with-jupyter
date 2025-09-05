@@ -1,6 +1,6 @@
 # 🛍️ Shopping Habits Predictor with ML
 ## Project Overview
-This project presents a simple machine learning approach to predicting the shopping habits based on age and gender. Trained on a labeled dataset, the model is designed to make predictions for previously unseen demographic combinations. The project is built using the <code style="color : name_color">pandas</code>  and <code style="color : name_color">scikit-learn</code> libraries. 
+This project presents a simple machine learning approach to predicting the shopping habits based on age and gender. Trained on a labeled dataset, the model is designed to make predictions for previously unseen demographic combinations. The project is built using the <code style="color : name_color">pandas</code>  and <code style="color : name_color">scikit-learn</code> libraries.
 
 ### Data Sources
 The dataset used for model training was created by the author. It includes synthetic entries with age, gender, and corresponding shopping preferences.
